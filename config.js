@@ -10,23 +10,19 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212717457920', 'bobiza', true],
-
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['966593311570', '𝑈𝑅𝐴𝐻𝐴𝑅𝐴🗿', true],
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.suittag = ['966593311570'];
+global.prems = ['966593311570'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/noureddine_ouafy';
+global.packname = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.author = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.wm = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.titulowm = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.titulowm2 = `𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇`
+global.igfg = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.wait = '*|🏃|يرجى الإنتظار*\n';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -45,14 +41,14 @@ global.mes = d.toLocaleDateString('en', {month: 'long'});
 global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
-global.mysticbot = 'The BOBIZA';
-global.md = 'https://instagram.com/noureddine_ouafy';
-global.mysticbot = 'https://instagram.com/noureddine_ouafy';
-global.waitt = '*[ ⏳ ] LOADING...*';
-global.waittt = '*[ ⏳ ] LOADING...*';
-global.waitttt = '*[ ⏳ ] LOADING...*';
+global.wm2 = `${dia} ${fecha}\n𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇`;
+global.gt = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.mysticbot = '𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇';
+global.md = 'https://chat.whatsapp.com/IVJKhm24AFoGlgArjdlbzf';
+global.mysticbot = 'https://chat.whatsapp.com/IVJKhm24AFoGlgArjdlbzf';
+global.waitt = '*[ ⏳ ] يرجى الإنتظار...*';
+global.waittt = '*[ ⏳ ] يرجى الإنتظار...*';
+global.waitttt = '*[ ⏳ ] يرجى الإنتظار...*';
 global.nomorown = '212605784394';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
