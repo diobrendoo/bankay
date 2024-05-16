@@ -1535,16 +1535,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ℹ️ ] This command can only be used by the bot owner.*',
-    owner: '*[ ℹ️ ] This command can only be used by the bot owner.*',
-    mods: '*[ ℹ️ ] This command can only be used by moderators and the bot owner.*',
-    premium: '*[ ℹ️ ] This command can only be used by premium users and the bot owner.*',
-    group: '*[ ℹ️ ] This command can only be used in groups.*',
-    private: '*[ ℹ️ ] This command can only be used in the bot s private chat.*',
-    admin: '*[ ℹ️ ] This command can only be used by group administrators.*',
-    botAdmin: '*[ ℹ️ ] To use this command it is necessary that the bot be an administrator of the group.*',
-    unreg: '*[ ℹ️ ] To use this command you must be registered.*\n\n*[ 💡 ] Use the command:* _#verify name.age_ *to register.*',
-    restrict: '*[ ℹ️ ] This command was disabled by the bot owner.*',
+    rowner: '*[ ℹ️ ]هذا الامر مخصص للمطور فقط*',
+    owner: '*[ ℹ️ ]هذا الامر مخصص للمطور فقط*',
+    mods: '*[ ℹ️ ]هذا الامر مخصص للمطور فقط.*',
+    premium: '*[ ℹ️ ]هذا الامر مخصص للمطور.*',
+    group: '*[ ℹ️ ]هذا الامر مخصص للقروبات فقط*',
+    private: '*[ ℹ️ ] هذا الامر يستعمل في الخاص فقط*',
+    admin: '*[ ℹ️ ]هذا الامر مخصص للادمن فقط*',
+    botAdmin: '*[ ℹ️ ]لاستخدام هذا الامر يجب ان يكون البوت ادمن اولا*',
+    unreg: '*[ ℹ️ ]يجب عليك التسجيل في البوت لاستخدام الامر*\n\n*[ 💡 ]استخم الامر:* _#تسجيل الاسم.العمر_ *للتسجيل.*',
+    restrict: '*[ ℹ️ ]هذا الامر تم اغلاقه بواسطة المطور*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Warning*', body: 'BOBIZABOT', thumbnail: imagen1, sourceUrl: 'https://instagram.com/noureddine_ouafy'}}}}, aa);
