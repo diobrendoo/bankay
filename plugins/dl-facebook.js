@@ -14,7 +14,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   try {
     const result = await fg.fbdl(args[0]);
     const tex = `
-*❒⊱──┇ بــــ ناتسو ــــوت ┇──⊰❒*
+*❒⊱──┇ 𝑀𝐴𝐾𝐼𝑀𝐴 𝐵𝛩𝑇 ┇──⊰❒*
 
 ↳ *عـنوان الــفيـديو:* ${result.title}
 
