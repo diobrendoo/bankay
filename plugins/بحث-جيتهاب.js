@@ -17,8 +17,8 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const str = json.items.map((repo, index) => {
   return `
 *${1 + index}. ${repo.full_name}${repo.fork ? ' (fork)' : ''}*
-${tradutor.texto1[0]} ${repo.html_url}
-${tradutor.texto1[3]} ${repo.clone_url}
+ ${repo.html_url}
+ ${repo.clone_url}
 👁 ${repo.watchers} ◉ 🍴 ${repo.forks} ◉ ⭐ ${repo.stargazers_count} ◉ ❓ 
 ${repo.description ? `📝 الوصف\n${repo.description}` : ''}
 `.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
@@ -27,7 +27,7 @@ ${repo.description ? `📝 الوصف\n${repo.description}` : ''}
 };
 handler.help = ['githubs'];
 handler.tags = ['buscadores'];
-handler.command = /^(جيتهاب-بحث|جيتهاب سيرش|بحث-جيتهاب)$/i;
+handler.command = /^(جيتهاب-بحث|جيتهاب-سيرش|بحث-جيتهاب)$/i;
 export default handler;
 
 function formatDate(n, locale = 'es') {
